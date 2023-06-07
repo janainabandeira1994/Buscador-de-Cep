@@ -1,15 +1,17 @@
 .container{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-itens:center;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     flex-direction: column;
-    background: linear-gradient(#121212, #212b46);
+    background: linear-gradient(#A9A9A9,#808080);
+
 
 }
 
 .title{
-    font-size:85px
+    font-size:50px;
+    color:#FFF;
 }
 
 .containerInput{
@@ -24,12 +26,13 @@ box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
 }
 
 .containerInput input{
-    background-color: trasparent;
+
     border:0;
     font-size:20px;
-    color: #fff;
+    color: white;
     outline: none;
     margin-right: 8px;
+    background-color: transparent;
 
 
 }
